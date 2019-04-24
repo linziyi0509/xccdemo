@@ -1,7 +1,4 @@
 /**message.wxss**/
-.message{
-  height: 100%;
-}
 .singleTrade{
   padding:2% 4% 0%;
   font-size:16px;

@@ -41,6 +41,7 @@ Page({
    * 页面上拉触底事件的处理函数
    */
   onReachBottom: function () {
+    console.log("上滑动 查询分页");
     wx.showToast({
       title: '加载中',
       icon: 'loading'
