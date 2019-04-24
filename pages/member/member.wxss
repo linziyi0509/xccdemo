@@ -1,0 +1,50 @@
+/**member.wxss**/
+.member{
+  height:100%;
+}
+.userinfo {
+  display: flex;
+  flex-direction: row;
+}
+.userinfo-detail-image{
+  flex:1;
+}
+.userinfo-detail-info{
+  flex:2;
+  padding:10% 0;
+}
+.userinfo-avatar {
+  width:200rpx;
+  height:200rpx;
+  margin:40rpx;
+  border-radius: 50%;
+}
+.userinfo-nickname {
+  color: #aaa;
+}
+.userinfo-location {
+  color: #aaa;
+  margin-top:5%;
+}
+
+.dataList{
+  display: flex;
+  flex-direction: row;
+  border:1px #aaa solid;
+  margin:0% 2% 2%;
+  text-align: center;
+}
+.dataListName{
+  flex:2;
+  margin:2% 2% 1%;
+  line-height: 46px;
+}
+.dataListIsFollow{
+  flex:1;
+  margin:2% 2% 1%;
+}
+.dataListIsFollow button{
+  background-color: #FFCB01;
+  line-height:2.5;
+  border-radius:0px;
+}

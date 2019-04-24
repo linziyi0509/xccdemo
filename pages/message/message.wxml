@@ -1,0 +1,15 @@
+<!--index.wxml-->
+<view class="message" wx:if='{{empty}}'>
+  <view class='singleTrade' hover-class='item-press' catchtap='showTradeDetail' data-id='1'>
+    <view class='time'>21:51</view>
+      <text class='source'>螺纹钢价格稳，现Φ18-22mmHRB400螺纹钢执行价格4200元/吨，12mm加价200元/吨，14mm加价150元/吨，16mm加价70元/吨，25mm加价50元/吨，28-32mm加价150元/吨，36-40mm加价300元/吨，HRB500高强度同规格加价450元/吨。</text>
+   </view>
+   <view class='singleTrade' hover-class='item-press' catchtap='showTradeDetail' data-id='2'>
+    <view class='time'>20:11</view>
+      <text class='source'>在4月19-20日举行的中国（榆林）煤化工园区及产业链发展峰会上，榆林市正在推进的五大重点煤化工项目分别介绍了项目进展和特点，引起了与会300多位代表的关注。这些项目总投资将达到2598亿元，且产品具有差异性、经济性，注重向下游延伸，投产后不仅将创造可观的产值和利润</text>
+   </view>
+</view>
+
+<view wx:else class='view-empty'>
+  <text>暂时没有相关商品，换个筛选条件试试吧!</text>
+</view>

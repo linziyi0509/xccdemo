@@ -1,0 +1,21 @@
+/**message.wxss**/
+.message{
+  height: 100%;
+}
+.singleTrade{
+  padding:2% 4% 0%;
+  font-size:16px;
+}
+.source{
+  margin-top:5px;
+  line-height: 22px;
+  word-break:break-all;/*使得文本中遇到數字也進行有序排列*/
+  /*数据默认展示几行*/
+  text-overflow: -o-ellipsis-lastline;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  align-content: center;
+}

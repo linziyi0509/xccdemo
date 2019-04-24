@@ -1,0 +1,29 @@
+<!--nearby.wxml-->
+<view wx:if="{{empty}}" class='view-empty'>
+  <text class='hint'>不获取地址是没有数据的</text>
+  <button bindtap='getLocation'>获取地址</button>
+</view>
+<view class="nearby" wx:else>
+  <view class='content'>
+    <view class='label'>蔬菜</view>
+    <view class='detail'>
+      <view class='name-price'>
+        <text class='name'>白菜</text>
+        <text class='unit-price'>3.24元/公斤</text>
+      </view>
+      <view class='address'>北京市新发地蔬菜批发市场</view>
+      <view class='kilometre'>距离300公里</view>
+    </view>
+  </view>
+  <view class='content'>
+    <view class='label'>蔬菜</view>
+    <view class='detail'>
+      <view class='name-price'>
+        <text class='name'>白菜</text>
+        <text class='unit-price'>3.24元/公斤</text>
+      </view>
+      <view class='address'>北京市新发地蔬菜批发市场</view>
+      <view class='kilometre'>距离300公里</view>
+    </view>
+  </view>
+</view>

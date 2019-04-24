@@ -1,0 +1,27 @@
+<!--index.wxml-->
+<view class="search">
+  <view class='top'>
+    <text>搜索报价</text>
+    <view class='search-box'>
+      <input type='text' name='addressOrName' class='addressOrName' placeholder='输入地点或农产品名称'></input>
+    </view>
+  </view>
+  <view class='content'>
+    <view class='searchList'>
+      <view class='name-price'>
+        <text class='name'>白菜</text>
+        <text class='unit-price'>3.24元/公斤</text>
+      </view>
+      <view class='address'>北京市新发地蔬菜批发市场</view>
+      <view class='kilometre'>距离300公里</view>
+    </view>
+    <view class='searchList'>
+      <view class='name-price'>
+        <text class='name'>白菜</text>
+        <text class='unit-price'>3.24元/公斤</text>
+      </view>
+      <view class='address'>北京市新发地蔬菜批发市场</view>
+      <view class='kilometre'>距离300公里</view>
+    </view>
+  </view>  
+</view>
