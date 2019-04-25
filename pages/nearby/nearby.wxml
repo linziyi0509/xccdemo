@@ -1,7 +1,7 @@
 <!--nearby.wxml-->
 <view wx:if="{{empty}}" class='view-empty'>
   <text class='hint'>不获取地址是没有数据的</text>
-  <button bindtap='getLocation'>获取地址</button>
+  <button bindtap='getAddress'>获取地址</button>
 </view>
 <view class="nearby" wx:else>
   <view class='content'>
